@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "portfolio_alexis/proyecto_alexis/node_modules/bootstrap/dist/css/bootstap.min.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+             
+              "portfolio_alexis/proyecto_alexis/node_modules/jquery/dist/jquery.min.js",
+              "portfolio_alexis/proyecto_alexis/node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "portfolio_alexis/proyecto_alexis/node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "299c291a-a5ee-41c8-b3d1-208614e4fbf3"
   }
 }
